@@ -1,0 +1,12 @@
+.con-fluid{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.logo{
+    height: 100px;
+    background-color: red;
+}
+.menu{
+    height: 100px;
+    background-color: green;
+}
