@@ -6,7 +6,7 @@
     position: fixed;
     z-index: 99;
 }
-.logo > img{
+.logo > a > img{
     height: 100px;
 }
 .menu{
