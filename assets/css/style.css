@@ -66,20 +66,20 @@
 }
 .slide > img{
     width: 100%;
-    position: absolute;
+    height: 100%;
 }
 .slide-content{
     position: absolute;
     top: 200px;
     width: 600px;
-    background-color: rgba(37, 128, 37,.7);
+    background-color: rgba(63, 58, 58, 0.7);
     left: 100px;
+    padding: 10px;
 }
 .slide-content > h1{
-    color: green;
+    color: rgb(28, 20, 138);
     font-weight: bold;
-    text-shadow: 0px 0px 3px black;
-    text-align: center;
+    text-shadow: 0px 0px 3px whitesmoke;
     text-transform: uppercase;
 }
 .slide-content > p{
@@ -88,4 +88,52 @@
 }
 .slide-content > a{
     margin: 0px 0px 15px 30px;
+}
+.slide-content > a:hover{
+    background-color: transparent;
+}
+.body-fluid{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+.left-logo{
+    position: absolute;
+    height: 100%;
+    z-index: 5;
+}
+.left-logo img{
+    height: 100%;
+    position: absolute;
+}
+.text-content{
+    position: absolute;
+    left: 25%;
+}
+.text-content h2{
+    color: rgb(26, 207, 26);
+    font-weight: bolder;
+}
+.text-content p{
+    color: rgb(57, 58, 59);
+    font-size: 1.5em;
+    text-align: left;
+}
+.left-logo a{
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+.left-logo a:hover{
+    background-color: transparent;
+    color: green;
+}
+.right-logo{
+    height: 100%;
+    position: absolute;
+    right: 2%;
+}
+.right-logo img{
+    height: 100%;
 }
